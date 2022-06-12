@@ -11,15 +11,6 @@ import lombok.Data;
 @Configuration
 public class MailConfiguration {
 
-    // private final String emailFrom;
-    // private final String host;
-    // private final int portNumber;
-    // private final String protocol;
-    // private final boolean testConnection;
-    // private final boolean useAuth;
-    // private final String username;
-    // private final String password;
-
     private final String emailFrom;
 
     public MailConfiguration (@Value("${email.from}") String emailFrom) {
