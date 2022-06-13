@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping(path = "notification/")
+@RequestMapping(path = "generate-notification/")
 public class NotificationController {
 
     private final SMSService smsService;
